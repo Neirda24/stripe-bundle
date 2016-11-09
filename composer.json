@@ -1,0 +1,16 @@
+{
+    "name": "neirda24/stripe-bundle",
+    "description": "Provide a Symfony bundle for stripe",
+    "type": "symfony-bundle",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Adrien Schaegis",
+            "email": "rochesadrien@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "stripe/stripe-php": "^4.1"
+    }
+}
