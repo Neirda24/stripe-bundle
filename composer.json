@@ -9,8 +9,14 @@
             "email": "rochesadrien@gmail.com"
         }
     ],
+    "autoload": {
+        "psr-4": {
+            "Neirda24\\Bundle\\StripeBundle\\": "src/"
+        }
+    },
     "minimum-stability": "stable",
     "require": {
-        "stripe/stripe-php": "^4.1"
+        "stripe/stripe-php": "^4.1",
+        "symfony/http-kernel": "^2.7 || ^3.1"
     }
 }
